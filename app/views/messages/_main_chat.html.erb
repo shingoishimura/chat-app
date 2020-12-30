@@ -1,10 +1,13 @@
  <%# チャット全体のHTML %>
 
-<div class="chat-header">  
-
-  <div class="chat-room-name">チャットルーム
+<div class="chat-header">
+  <div class="left-header">
+    <div class="header-title">
+      <%= @room.name %>
+    </div>
   </div>
-    <div class="room-close"><a href="#">チャットを終了する</a>
+  <div class="right-header">
+<a href="#">チャットを終了する</a>
     </div>
 </div>
 
