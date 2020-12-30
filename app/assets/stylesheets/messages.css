@@ -65,18 +65,18 @@
   
 }
 /* チャット上の左 */
-.chat-room-name {
+.header-title {
   font-size: 24px;
   color: #333333;
   margin-top:  36px;
 }
 
 /* チャット上の右 */
-.room-close{
+.header-button{
   margin-top: 40px;
 }
 
-.room-close a { 
+.header-button a { 
 text-decoration: none;  
 color: darkred;
 border: 1px solid darkred;
